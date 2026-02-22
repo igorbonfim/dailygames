@@ -3,12 +3,13 @@ import { GameProps } from "@/utils/types/game";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightSquare } from "react-icons/bs";
+import { Input } from "@/components/input";
 
 async function getDailyGame() {
   try {
     const res = await fetch(
       `${process.env.NEXT_API_URL}/next-api/?api=game_day`,
-      { next: { revalidate: 320 } },
+      { next: { revalidate: 0 } },
     );
     return res.json();
   } catch (err) {
@@ -47,6 +48,8 @@ export default async function Home() {
             </div>
           </section>
         </Link>
+
+        <Input />
       </Container>
     </main>
   );
