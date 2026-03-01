@@ -2,7 +2,6 @@ import { GameProps } from "@/utils/types/game";
 import { Container } from "@/components/container";
 import { Input } from "@/components/input";
 import { GameCard } from "@/components/GameCard";
-import { decode } from "punycode";
 
 async function getData(title: string) {
   try {
