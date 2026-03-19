@@ -1,10 +1,13 @@
-import { Container } from "@/components/container";
-import { GameProps } from "@/utils/types/game";
+import { Container } from "@/app/components/container";
+import { GameProps } from "@/app/utils/types/game";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightSquare } from "react-icons/bs";
-import { Input } from "@/components/input";
-import { GameCard } from "@/components/GameCard";
+import { Input } from "@/app/components/input";
+import { GameCard } from "@/app/components/GameCard";
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 async function getDailyGame() {
   try {

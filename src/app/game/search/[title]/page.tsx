@@ -1,7 +1,7 @@
-import { GameProps } from "@/utils/types/game";
-import { Container } from "@/components/container";
-import { Input } from "@/components/input";
-import { GameCard } from "@/components/GameCard";
+import { GameProps } from "@/app/utils/types/game";
+import { Container } from "@/app/components/container";
+import { Input } from "@/app/components/input";
+import { GameCard } from "@/app/components/GameCard";
 
 async function getData(title: string) {
   try {

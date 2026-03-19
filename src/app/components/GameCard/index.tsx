@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BiRightArrowCircle } from "react-icons/bi";
-import { GameProps } from "@/utils/types/game";
+import { GameProps } from "@/app/utils/types/game";
 
 interface GameCardProps {
   data: GameProps;

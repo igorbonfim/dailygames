@@ -1,4 +1,4 @@
-import logoImg from "../../../public/logo.svg";
+import logoImg from "../../../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { LiaGamepadSolid } from "react-icons/lia";

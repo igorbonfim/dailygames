@@ -1,4 +1,4 @@
-import { Container } from "@/components/container";
+import { Container } from "@/app/components/container";
 import Image from "next/image";
 import userImg from "../../../public/user.png";
 import { FaShareAlt } from "react-icons/fa";

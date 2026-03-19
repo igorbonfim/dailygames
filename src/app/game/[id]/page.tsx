@@ -1,9 +1,9 @@
-import { GameProps } from "@/utils/types/game";
+import { GameProps } from "@/app/utils/types/game";
 import { redirect } from "next/navigation";
 import Image from "next/image";
-import { Container } from "@/components/container";
+import { Container } from "@/app/components/container";
 import { Label } from "./components/label";
-import { GameCard } from "@/components/GameCard";
+import { GameCard } from "@/app/components/GameCard";
 import { Metadata } from "next";
 
 interface PropsParams {
