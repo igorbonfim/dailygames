@@ -20,7 +20,7 @@
 
 **Visual Mobile:**
 
-<img width="430" height="775" alt="image" src="https://github.com/user-attachments/assets/2857edd0-a25b-452e-9f75-97620b63be4d" /> <img width="426" height="699" alt="image" src="https://github.com/user-attachments/assets/4415697a-18e0-4b3a-862c-0b90247911ae" />
+<img width="300" height="616" alt="image" src="https://github.com/user-attachments/assets/2857edd0-a25b-452e-9f75-97620b63be4d" /> <img width="300" height="396" alt="image" src="https://github.com/user-attachments/assets/4415697a-18e0-4b3a-862c-0b90247911ae" />
 
 
 
